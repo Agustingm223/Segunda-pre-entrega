@@ -1,0 +1,253 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #850318;
+}
+
+.section-principal {
+    background-image: url("../assets/img/Logo.png");
+    height: 27rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.section-principal a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+
+.section-secundaria div{
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    justify-content: center;
+
+
+}
+.section-secundaria div a{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    flex-direction: row;
+
+}
+
+.section-terciaria div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.section-terciaria div img{
+    margin: 25px ;
+    box-shadow: 0px 0px 25px yellow;
+}
+
+.section-cuarta li p {
+    background-color: lightgray;
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-quinta li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-quinta li img{
+    height: 30rem;
+    width: 70rem;
+    margin: 25px;
+    box-shadow: 0px 0px 25px yellow;
+
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer div img{
+    height: 10rem;
+    width: 10rem;
+}
+
+.error{
+    background-color: rgb(219, 56, 83);
+    background-position: 50%;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-sexta{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr) ;
+
+}
+
+.section-sexta .div-primera{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.section-sexta .div-segunda{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.section-sexta .div-tercera{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.section-sexta .div-cuarta{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.section-sexta div div img{
+    margin: 25px;
+    height: 518px;
+    width: 350px;
+}
+
+.section-sexta .div-primera .texto-opp{
+    display: flex;
+    text-align: center;
+    float: right;
+}
+
+.section-septima{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.section-septima div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.section-septima p{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Monoton', cursive;
+}
+
+.section-septima div img{
+    height: 450px;
+    width: 300px;
+}
+.section-octava{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-octava h1{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 45px;
+}
+
+.section-octava p{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 35px;
+    margin: 10px;
+}
+
+.section-octava h2{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 45px;
+}
+
+.section-octava iframe{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.section-novena{
+    text-align: center;
+}
+
+.section-novena h1{
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.section-novena p{
+    font-size: 45px;
+    font-family:'Roboto', sans-serif;
+    margin: 10px;
+}
+
+.section-novena h2{
+    font-size: 50px;
+    font-family:'Roboto', sans-serif;
+}
+
+.section-novena div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-novena div img{
+    height: 10rem;
+    width: 10rem;
+}
+
