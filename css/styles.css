@@ -5,10 +5,31 @@
     box-sizing: border-box;
 }
 
-
 body{
     background-color: #850318;
 }
+
+.body{
+    background-color: #850318;
+}
+
+section nav div{
+    list-style: none;
+}
+
+section nav div a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+} 
+
+section div div img{
+    height: 25rem;
+    width: 50rem;
+    margin: 25px;
+    box-shadow: 0px 0px 25px yellow;
+}
+
 
 .section-principal {
     background-image: url("../assets/img/Logo.png");
