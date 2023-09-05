@@ -23,6 +23,8 @@ section nav div a{
     font-size: 25px;
 } 
 
+
+
 section div div img{
     height: 30rem;
     margin: 25px;
@@ -271,3 +273,11 @@ footer div img{
     width: 10rem;
 }
 
+@media (max-width: 990px){
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+}
