@@ -281,3 +281,61 @@ footer div img{
         text-align: center;
     }
 }
+
+
+@media (max-width: 768px){
+    .section-secundaria div{
+        gap: 2.5rem
+    }
+    .section-secundaria div a{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 425px){
+    .section-principal nav .Logo h1{
+        font-size: 50px;
+    }
+    .section-secundaria div{
+        gap: 2rem
+    }
+    .section-secundaria div a{
+        font-size: 20px;
+    }
+    .section-novena h1{
+        font-size: 40px;
+    }
+    .section-novena h2{
+        font-size: 40px;
+    }
+    .section-novena p{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 375px){
+    .section-principal nav .Logo h1{
+        font-size: 40px;
+    }
+    .section-secundaria div{
+        gap: 2rem
+    }
+    .section-secundaria div a{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px){
+    .section-principal nav .Logo h1{
+        font-size: 35px;
+    }
+    .section-secundaria div{
+        gap: 1.5rem
+    }
+    .section-secundaria div a{
+        font-size: 15px;
+    }
+    .section-novena p{
+        font-size: 27px;
+}
+}
