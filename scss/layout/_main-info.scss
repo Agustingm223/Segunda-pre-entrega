@@ -1,0 +1,33 @@
+
+
+.section-quinta{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        text-align: center;
+        font-family:'Roboto', sans-serif;
+        font-size: 45px;
+        color: $color-fuentes-principal;
+    }
+
+    h2{
+        @extend h1;
+    }
+
+    p{
+        @extend h1;
+        font-size: 35px;
+        margin: 10px;
+        color: $color-fuentes-secundarias;
+    }
+    iframe{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+}
+
+

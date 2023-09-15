@@ -1,0 +1,37 @@
+@import "./utilities/variables";
+
+@import "./utilities/mixins";
+
+@import "./utilities/funciones";
+
+
+@import "./base/reset";
+
+
+@import "./layout/header";
+
+@import "./layout/footer";
+
+@import "./layout/main-index";
+
+@import "./layout/main-cartelera";
+
+@import "./layout/main-ofertas";
+
+@import "./layout/main-contactos";
+
+@import "./layout/main-info";
+
+
+
+@import "./layout/media/media990px";
+
+@import "./layout/media/media768px";
+
+@import "./layout/media/media425px";
+
+@import "./layout/media/media375px"; 
+
+@import "./layout/media/media320px"; 
+
+

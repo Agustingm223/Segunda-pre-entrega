@@ -1,0 +1,21 @@
+.section-cuarta{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        img{
+            height: 450px;
+            width: 300px;
+        }
+    }
+    p{
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Monoton', cursive;
+    }
+}

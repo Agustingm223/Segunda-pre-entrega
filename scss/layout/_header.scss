@@ -1,0 +1,13 @@
+.section-principal{
+    background-image: url("../assets/img/Logo.png");
+    height: 27rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    a{
+        color: $color-fuentes-principal;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Monoton', cursive;
+        font-size: 60px;
+    }
+}
